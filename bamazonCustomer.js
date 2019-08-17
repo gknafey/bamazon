@@ -34,16 +34,16 @@ const bamazonLoad = () => {
         console.log("Welcome to the Store!\nHere is our selection of items!");
         console.log("-------------------------------------------------------");
 
-        for (let i = 0; i < data.length; i++) {
+        // for (let i = 0; i < data.length; i++) {
 
-            console.log("Product ID: " + data[i].id);
-            console.log("Product: " + data[i].product_name);
-            console.log("Department: " + data[i].department_name);
-            console.log("Price: " + data[i].price);
-            console.log("Stock: " + data[i].stock_quantity);
-            console.log("--------------------------------------");
-        };
-
+        //     console.log("Product ID: " + data[i].id);
+        //     console.log("Product: " + data[i].product_name);
+        //     console.log("Department: " + data[i].department_name);
+        //     console.log("Price: " + data[i].price);
+        //     console.log("Stock: " + data[i].stock_quantity);
+        //     console.log("--------------------------------------");
+        // };
+        console.table(data);
         buyAnItem();
     });
 
