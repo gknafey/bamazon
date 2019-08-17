@@ -8,14 +8,17 @@ Bamazon is an app that displays information about products in the terminal, and 
 
 Run the program by typing bamazonCustomer.js in the terminal.  A list is displayed containing items.  Input a selection based on product ID, input the quantity desired.  Afterwards it updates the database.
 
+Table displays in the terminal.
+![table-display](https://github.com/gknafey/bamazon/blob/master/images/image.PNG)
 
-![table-display](\images\list-command.PNG)
+User is asked for input about what product they want.
+![input-product-id](https://github.com/gknafey/bamazon/blob/master/images/image1.PNG)
 
-![input-product-id](\images\list-command.PNG)
+User is asked what quantity of the product they want.  And the result if the quantity is available. Which is your order is processing.
+![input-quantity-with-success](https://github.com/gknafey/bamazon/blob/master/images/image2.PNG)
 
-![input-quantity-with-success](\images\list-command.PNG)
-
-![input-quantity-with-fail](\images\list-command.PNG)
+User is notified that the order cannot be processed because of insufficient stock.
+![input-quantity-with-fail](https://github.com/gknafey/bamazon/blob/master/images/image3fail.PNG)
 
 ##Code
 
